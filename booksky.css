@@ -130,3 +130,17 @@ body{
 .popup-box textarea:focus{
   outline: none;
 }
+
+/* Responsive web */
+
+@media (max-width: 768px) {
+  .book-container {
+    width: 80%;
+  }
+
+  .popup-box {
+    width: 90%;
+    left: 5%;
+    transform: none;
+  }
+}
